@@ -1,0 +1,67 @@
+.meal-card {
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .meal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .meal-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .meal-card-content {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .meal-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .meal-ingredient-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .meal-ingredient-item {
+    margin-bottom: 5px;
+  }
+  
+  .meal-instructions {
+    margin-bottom: 20px;
+  }
+  
+  .meal-source-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .meal-source-button:hover {
+    background-color: #0056b3;
+  }
+  
